@@ -1,0 +1,88 @@
+<div clss="wrapper">
+<div class="container">
+    <div class=" header">
+        <span class="home">Home</span>
+        <span class="admin">Admin</span>
+        <span class="doctor">Doctor</span>
+        <span class="patient">Patient</span>
+        <span class="login" (click)="showLogin()">Login</span>
+    </div>
+    <div class="body">
+        <h2>Our Hospital will restore your Health very fast.</h2>
+
+        <h1>1000+ Customers</h1>
+        <div class="logo">
+            <span>SKY Hospitals</span>
+        </div>
+    </div>
+</div>
+<div class="aboutus">
+    <h1>About Us</h1>
+    <img src="../../../assets/syringe-gf2a1cb2d4_1920-removebg-preview.png" alt="" >
+    <span>But it is always important to get up and get back to the grind.
+        Today, we motivate you with some doctor motivational quotes for medical students and anecdotes to help you feel positive and charged up.
+    </span>
+    </div>
+    <div class="team">
+        <div class="team-header">
+        <h1>Our Team</h1>   
+        </div>
+        <div class="team-container">
+           <div class="team-item">
+            <img src="https://cdn.pixabay.com/photo/2016/02/10/13/03/dentist-1191671_960_720.jpg" alt="">
+            <span>But it is always important to get up and get back to the grind.<br>
+                Today, we motivate you with some doctor motivational quotes for medical students and anecdotes to help you feel positive and charged up.</span>
+           </div> 
+           <div class="team-item">
+            <img src="https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg" alt="">
+            <span>But it is always important to get up and get back to the grind.<br>
+                Today, we motivate you with some doctor motivational quotes for medical students and anecdotes to help you feel positive and charged up.</span>
+           </div> 
+           <div class="team-item">
+            <img src="https://cdn.pixabay.com/photo/2017/05/23/17/12/doctor-2337835_960_720.jpg" alt="">
+            <span>But it is always important to get up and get back to the grind.<br>
+                Today, we motivate you with some doctor motivational quotes for medical students and anecdotes to help you feel positive and charged up.</span>
+           </div> 
+           <div class="team-item">
+            <img src="https://cdn.pixabay.com/photo/2016/02/08/23/36/isolated-1188036_960_720.png" alt="">
+            <span>But it is always important to get up and get back to the grind.<br>
+                Today, we motivate you with some doctor motivational quotes for medical students and anecdotes to help you feel positive and charged up.</span>
+           </div> 
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-item">
+            <h1>Vigen Medics</h1>
+
+            <span> &copy; 2022 Reserved. All rights reserved.</span>
+        </div>
+        
+    </div>
+    </div>
+
+    <div class="login-container" *ngIf="close" >
+
+        <div class="login-item">
+    
+            <div class="cancel-button">
+                <button class="close" (click)="showLogin()">Close</button>
+            </div>
+    
+            <div class="login-input">
+    
+                <h1>SKY Hospitals</h1>
+    
+                <input type="text" placeholder="Enter email">
+                <input type="password" placeholder="Enter password">
+    
+                <button class="login-btn">Login</button>
+    
+                <span>Ask to be registered.</span>
+            </div>
+    
+    
+        </div>
+    
+    </div>
+
